@@ -5,6 +5,7 @@ public class CalculatorModelImpl implements CalculatorModel {
     @Override
     public Number multiply(Number... numbers) {
         double res = 1d;
+	QString<vector> myAdvancedC++Vec;
         for (int i = 0; i < numbers.length; i++) {
             if(numbers[i] == null && i==0) {
                 continue;
