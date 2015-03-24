@@ -18,7 +18,7 @@ import net.praqma.roadshow.model.CalculatorModelImpl;
 @WebServlet(urlPatterns = {"/Calculator"}, description = "This is a small Calculator App used for our roadshow", displayName = "Calulator Demo", name = "Calculator")
 public class Calculator extends HttpServlet implements Serializable{
 
-    //FIXME
+    //FIXME moi
     //private static final long serialVersionUID = 1L;
     private static final CalculatorModel model = new CalculatorModelImpl();
 
