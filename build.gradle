@@ -36,7 +36,7 @@ group = 'net.praqma.roadshow.buep' // FIXME - add your initials or github id her
 
 ext.versionMajor = "1"
 ext.versionMinor = "1"
-ext.versionPatch = "0"
+ext.versionPatch = "1"
 
 version = "${versionMajor}.${versionMinor}.${versionPatch}-${buildNumber}"
 
